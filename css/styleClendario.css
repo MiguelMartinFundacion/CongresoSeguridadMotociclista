@@ -2,21 +2,21 @@
     width: 100%;
     border-radius: 0px;
     padding: 0px 0px 0px 0px;
-    background-color: #0037a567;
+    background-color: #e2faff;
     margin-top: 15px;
 }
 
 .color_row_normal {
-    background-color: #0038A527;
+    background-color: #e2faff;
 }
 
 .color_row_dark {
-    background-color: #0038A5;
+    background-color: #0499ba;
     color: #fff;
 }
 
 .color_row_light {
-    background-color: #ffffff62;
+    background-color: #ffffff;
 }
 
 .parte_calendario {
@@ -60,4 +60,9 @@ hr.style18 {
 
 .color_mobility_claro {
     color: #0089a6 !important;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: rgb(230 250 255)!important;
 }

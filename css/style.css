@@ -3,19 +3,19 @@
 @property --main-color {
     syntax: "<color>";
     inherits: false;
-    initial-value: #049DBF;
+    initial-value: #10c9b9;
 }
 
 @property --back-color {
     syntax: "<color>";
     inherits: false;
-    initial-value: #0097c5;
+    initial-value: #10c9b9;
 }
 
 @property --trans-color {
     syntax: "<color>";
     inherits: false;
-    initial-value: #0097c5;
+    initial-value: #10c9b9;
 }
 
 body * {
@@ -63,6 +63,14 @@ h3, h4 {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Poppins', sans-serif;
+}
+
+.texto_gris {
+    color: #8b857d !important;
+}
+
+.texto_azul {
+    color: #1ca3c2 !important;
 }
 
 .border-left {
@@ -162,6 +170,7 @@ hr.style14 {
     display: block;
     text-align: center;
     border-radius: 0px;
+    max-height: 400px;
 }
 
 .contenedor_img img {
@@ -183,7 +192,7 @@ hr.style14 {
 
 
 .img_index {
-    background-image: url("../img/banners/banner_imrsc_azul.webp");
+    background-image: url("../img/banners/banner_imrsc_turquesa_fade2.webp");
     background-position-y: calc(1800px - (1920px - 100vw) / 2);
 }
 
@@ -196,15 +205,15 @@ hr.style14 {
 
 
 .img_actividad {
-    background-image: url("../img/banners/fondo_mobility_azul.webp");
+    background-image: url("../img/banners/fondo_mobility_turquesa_fade2.webp");
     background-position-y: calc((1920px - (2120px - 100vw) / 2) + 500px);
-    background-color: blue;
+    background-color: --main-color;
 }
 
 
 .nav {
     --bs-nav-link-color: var(--main-color) !important;
-    --bs-nav-link-hover-color: #0f3b62 !important;
+    --bs-nav-link-hover-color: #1ca3c2 !important;
     font-size: 20px;
 }
 
@@ -459,6 +468,17 @@ hr.style14 {
   transform: translate(-50%, -50%);
   margin: 0 auto;
 }
+
+
+/* Exposicion */
+.formato img {
+    height: 200px;
+}
+
+.img_exposicion {
+  width: 100%;
+}
+
 
 /*-----------
 PIE / FOOTER

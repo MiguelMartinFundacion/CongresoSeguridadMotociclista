@@ -1,9 +1,11 @@
-#calendario{
+.calendario{
     width: 100%;
     border-radius: 0px;
     padding: 0px 0px 0px 0px;
     background-color: #a0f7ee;
     margin-top: 15px;
+    color: #747474;
+    font-weight: 500;
 }
 
 .color_row_normal {
@@ -13,6 +15,7 @@
 .color_row_dark {
     background-color: #10c9b9;
     color: #fff;
+    font-weight: 600;
 }
 
 .color_row_light {
@@ -32,13 +35,13 @@
     border-radius: 0px;
 }
 
-#calendario .row {
+.calendario .row {
     /*border-bottom: 1px dotted black;*/
     margin: 0px;
     padding: 0px 15px;
 }
 
-#calendario .row:last-child {
+.calendario .row:last-child {
     border: 0px;
 }
 

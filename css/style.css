@@ -63,6 +63,10 @@ h3, h4 {
     margin: 0px !important;
 }
 
+h4 {
+    color: #0DA699 !important;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Poppins', sans-serif;
 }
@@ -74,6 +78,20 @@ h1, h2, h3, h4, h5 {
 .texto_azul {
     color: #1ca3c2 !important;
 }
+
+.texto_turquesa {
+    color: var(--main-color);
+}
+
+p strong {
+    color: #0089A6;
+}
+
+.texto_gris strong {
+    color: #8b857d;
+}
+
+
 
 .border-left {
     border-left: var(--main-color) 3px solid;
@@ -214,7 +232,7 @@ hr.style14 {
 
 
 .nav {
-    --bs-nav-link-color: var(--main-color) !important;
+    --bs-nav-link-color: #1ca3c2 !important;
     --bs-nav-link-hover-color: #1ca3c2 !important;
     font-size: 20px;
 }
@@ -292,6 +310,14 @@ hr.style14 {
         font-size: 24px;
     }
 
+    .formato .text-16{
+        font-size: 14px !important;
+        line-height: 1.3;
+    }
+
+    .formato h4 {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 390px) {
@@ -317,6 +343,10 @@ hr.style14 {
 
     .texto_img_index h1 {
         font-size: 18px;
+    }
+
+    .formato h4 {
+        font-size: 16px;
     }
 }
 
@@ -510,6 +540,29 @@ hr.style14 {
   width: 100%;
 }
 
+/* Servicios */
+.svg-7 {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.svg-light {
+    fill: #f6f8fa !important;
+}
+
+svg {
+    vertical-align: middle;
+}
+
+.rounded-circle {
+    height: 44px;
+    width: 44px;
+    padding-bottom: 10px !important;
+}
+
+.comollegar {
+    line-height: 1.25;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -520,7 +573,6 @@ hr.style14 {
 
     .quees p {
         text-indent: 30px;
-        text-align: justify;
     }
 
     .card-title {
@@ -544,6 +596,11 @@ hr.style14 {
     }
     
     #calendario {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .calendario {
         font-size: 14px;
         line-height: 1.3;
     }

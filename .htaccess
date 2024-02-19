@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^en/?$ index.html [NC,L] 
+RewriteRule ^(es)$ index.$1.html [NC,L]

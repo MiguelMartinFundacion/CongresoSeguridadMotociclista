@@ -226,10 +226,56 @@ hr.style14 {
 
 .img_actividad {
     background-image: url("../img/banners/fondo_mobility_turquesa_fade2.webp");
-    background-position-y: calc((1920px - (2120px - 100vw) / 2) + 500px);
+    background-position-y: calc((1920px - (2120px - 100vw) / 1.8) + 500px);
     background-color: --main-color;
 }
 
+@media screen and (min-width: 1920px) {
+    .parallax {
+        background-size: 100%; 
+    }
+
+    .img_actividad {
+        background-position-y: calc((1920px - (2120px - 100vw)) + 600px);
+    }
+
+    .img_index {
+        background-position-y: calc(1800px - (1920px - 100vw) / 1.4);
+    }
+}
+
+.register_dropdown li {
+    line-height: 18px;
+    margin: 0px;
+}
+
+.register_dropdown li:nth-child(-n+2){
+    border-bottom: #ffffffa1 2px solid;
+}
+
+.register_dropdown .dropdown-item {
+    color: #fff;
+    font-weight: 500;
+}
+
+.register_dropdown {
+    border-radius: 0px !important;
+    box-shadow: 2px 2px 5px #0f3b62;
+    
+    background-color: #1a788fee !important;
+    color: white !important;
+    border: 2px solid white !important;
+    font-weight: bold !important;
+    box-shadow: 2px 2px 5px #0f3b62;
+    text-shadow: 0 0 0.3em #0f3b62, 0 0 0.3em #0f3b62;
+    border-radius: 0px !important;
+}
+
+
+.register_dropdown .dropdown-item:hover {
+    background-color: #ffffff3a !important;
+    color: #fff;
+}
 
 .nav {
     --bs-nav-link-color: #1ca3c2 !important;
@@ -434,6 +480,10 @@ hr.style14 {
     max-height: 57%;
 }
 
+.modal-content {
+    border-radius: 0 !important;
+}
+
 /* CARDS */
 
 .card {
@@ -539,6 +589,40 @@ hr.style14 {
 .img_exposicion {
   width: 100%;
 }
+
+.img_expo {
+    width: 100%;
+}
+
+.expo_wrapper {
+    position: relative;
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .expo_nonsticky {
+        padding-right: 100px;
+        width: 60%;
+    }
+
+    .expo_sticky {
+        position: sticky;
+        left: 0;
+        top: 40px;
+        float: right;
+        width: 40%;
+        background-color: #001117;
+        min-height: 100vh;
+    }
+}
+
+@media only screen and (min-height: 1080px) {
+    .expo_sticky {
+        padding-top: calc((100vh - 1080px)/2);
+    }
+}
+
 
 /* Servicios */
 .svg-7 {

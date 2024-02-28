@@ -2,12 +2,17 @@
 <html lang="es">
 
 <head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>International Motorcycle Road Safety Conference - Zaragoza - March 2024</title>
     <meta name="description"
         content="International Congress on Motorcycle Road Safety, will be held at the Zaha Hadid Bridge in Zaragoza, Spain, on March 20 and 21, 2024.">
     <meta name="author" content="Fundación Ibercaja">
+    <link rel="icon" type="image/x-icon" href="../img/iconos/favicon.ico">
 
     <meta property="og:title" content="International Motorcycle Road Safety Conference - Zaragoza - March 2024" />
     <meta property="og:type" content="website" />
@@ -17,10 +22,10 @@
         content="International Congress on Motorcycle Road Safety, will be held at the Zaha Hadid Bridge in Zaragoza, Spain, on March 20 and 21, 2024." />
     <meta property="og:locale" content="en_EN" />
 
-    <link rel="stylesheet" href="../css/style.css?v=0.6">
+    <link rel="stylesheet" href="../css/style.css?v=0.7">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="../js/base.js?v=0.6"></script>
+    <script src="../js/base.js?v=0.7"></script>
 
     <script type="application/ld+json">
         {
@@ -77,7 +82,7 @@
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
                                             role="button" aria-expanded="false"><img src="../img/iconos/dias.png"
-                                                alt=""> Days </a>
+                                                alt=""> Agenda </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="dia1.html">Day 1</a></li>
                                             <li>
@@ -116,22 +121,26 @@
                                             role="button" aria-expanded="false"><img src="../img/iconos/inscripcion.png"
                                                 alt=""> Register </a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item"
-                                                    href="https://www.fundacionibercaja.es/actividades/congresos-y-jornadas/international-motorcycle-road-safety-20-21-de-marzo-zaragoza/">Complete
-                                                    (March 20 and 21)</a></li>
+                                            <li><a class="dropdown-item" data-bs-toggle="modal"
+                                                    href="#modalRegister1">Complete (March 20 and 21)</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item"
-                                                    href="https://www.fundacionibercaja.es/actividades/congresos-y-jornadas/international-motorcycle-road-safety-20-de-marzo-zaragoza/">Day
-                                                    1 only (March 20)</a></li>
+                                            <li><a class="dropdown-item" data-bs-toggle="modal"
+                                                    href="#modalRegister2">Day 1 only (March 20)</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item"
-                                                    href="https://www.fundacionibercaja.es/actividades/congresos-y-jornadas/international-motorcycle-road-safety-21-de-marzo-zaragoza/">Day
-                                                    2 only (March 21)</a></li>
+                                            <li><a class="dropdown-item" data-bs-toggle="modal"
+                                                    href="#modalRegister3">Day 2 only (March 21)</a></li>
                                         </ul>
+                                        <hr class="style14">
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" target="_blank"
+                                            href="https://www.mobilitycity.es/forms/contact-mobility-city/"><img
+                                                src="../img/iconos/contacto.png" alt="">
+                                            Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -144,9 +153,9 @@
                 </div>
                 <div class="col-3 col-md-2 d-flex">
                     <a href="../es/servicios.html" class="my-auto text-decoration-none texto_azul">
-                      Español
+                        Español
                     </a>
-                  </div>
+                </div>
             </div>
         </div>
     </header>
@@ -164,6 +173,66 @@
       </nav>
       -->
 
+    <div class="modal fade" id="modalRegister1" aria-hidden="true" aria-labelledby="modalRegister1Label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content card sombra">
+                <div class="modal-body text-center">
+                    <button type="button" class="btn-close float-end" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    <br><br>
+                    <h4>Are you a resident in Spain?</h4> <br><br>
+                    <a target="_blank"
+                        href="https://www.fundacionibercaja.es/usuarios/inscripcion/actividad/a213529ee2bffcb2d577a189f140b3fcea8c859c13631b83f86fc797499466b36b3d87c85f5ed35e?bp_reg=1"
+                        type="button" class="btn btn-mobility mb-4 fw-bold text-18">I am a resident</a>
+                    <a target="_blank"
+                        href="https://www.fundacionibercaja.es/usuarios/inscripcion/no_residentes/a213529ee2bffcb2d577a189f140b3fcea8c859c13631b83f86fc797499466b36b3d87c85f5ed35e"
+                        type="button" class="btn btn-mobility mb-5 fw-bold text-18">I am not a resident</a>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalRegister2" aria-hidden="true" aria-labelledby="modalRegister2Label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content card sombra">
+                <div class="modal-body text-center">
+                    <button type="button" class="btn-close float-end" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    <br><br>
+                    <h4>Are you a resident in Spain?</h4> <br><br>
+                    <a target="_blank"
+                        href="https://www.fundacionibercaja.es/usuarios/inscripcion/actividad/a213529ee2bffcb2d577a189f140b3fcea8c859c13631b83f86fc797499466b3d716f67cb1604884?bp_reg=1"
+                        type="button" class="btn btn-mobility mb-4 fw-bold text-18">I am a resident</a>
+                    <a target="_blank"
+                        href="https://www.fundacionibercaja.es/usuarios/inscripcion/no_residentes/a213529ee2bffcb2d577a189f140b3fcea8c859c13631b83f86fc797499466b3d716f67cb1604884"
+                        type="button" class="btn btn-mobility mb-5 fw-bold text-18">I am not a resident</a>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalRegister3" aria-hidden="true" aria-labelledby="modalRegister3Label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content card sombra">
+                <div class="modal-body text-center">
+                    <button type="button" class="btn-close float-end" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    <br><br>
+                    <h4>Are you a resident in Spain?</h4> <br><br>
+                    <a target="_blank"
+                        href="https://www.fundacionibercaja.es/usuarios/inscripcion/actividad/a213529ee2bffcb2d577a189f140b3fcea8c859c13631b83f86fc797499466b34c06c1dcd84c4434?bp_reg=1"
+                        type="button" class="btn btn-mobility mb-4 fw-bold text-18">I am a resident</a>
+                    <a target="_blank"
+                        href="https://www.fundacionibercaja.es/usuarios/inscripcion/no_residentes/a213529ee2bffcb2d577a189f140b3fcea8c859c13631b83f86fc797499466b34c06c1dcd84c4434"
+                        type="button" class="btn btn-mobility mb-5 fw-bold text-18">I am not a resident</a>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="row justify-content-center text-center mt-5 gx-0">
         <div class="col-12">
             <div class="parallax img_actividad contenedor_img contenedor_img_100 shadow mt-4">
@@ -171,9 +240,25 @@
                     <p class="text-uppercase mb-1 text-14">ZARAGOZA | MOBILITY CITY</p>
                     <h1 class="h2 fw-bold">Services information</h1>
                     <p class="text-18 m-0">How to arrive | Nearby hotels</p>
-                    <a href="https://www.fundacionibercaja.es/actividades/congresos-y-jornadas/international-motorcycle-road-safety-20-21-de-marzo-zaragoza/"
-                        target="_blank" rel="noopener noreferrer" type="button"
-                        class="btn btn-mobility2 mt-4 text-18">Register</a>
+
+                    <a class="btn btn-mobility2 mt-4 text-18" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Register</a>
+                    <ul class="dropdown-menu register_dropdown p-0">
+                        <li><a class="dropdown-item" data-bs-toggle="modal" href="#modalRegister1">Complete (March 20
+                                and 21)</a></li>
+
+                        <li><a class="dropdown-item" data-bs-toggle="modal" href="#modalRegister2">Day 1 only (March
+                                20)</a></li>
+
+                        <li><a class="dropdown-item" data-bs-toggle="modal" href="#modalRegister3">Day 2 only (March
+                                21)</a></li>
+                    </ul>
+
+                    <a href="exposicion.html" rel="noopener noreferrer" type="button"
+                        class="btn btn-mobility2 mt-4 text-18">Exhibition</a>
+
+                    <a href="#agenda" rel="noopener noreferrer" type="button"
+                        class="btn btn-mobility2 mt-4 text-18">Agenda</a>
                 </div>
             </div>
         </div>
@@ -201,8 +286,10 @@
                 </div>
                 <div class="col-md-9 col-md-10">
                     <p class="m-0">
-                        Mobility City is next to the historic city centre and is <strong>directly accessible</strong> from the Z-30, A-2, Z-40 and AP-68 roadways. <br>
-                        <strong>Ample parking facilities</strong> are located <strong>close to the site</strong>, with up to 1,200 spaces available on Avenida de Ranillas and Avenida de Pablo Ruiz Picasso.
+                        Mobility City is next to the historic city centre and is <strong>directly accessible</strong>
+                        from the Z-30, A-2, Z-40 and AP-68 roadways. <br>
+                        <strong>Ample parking facilities</strong> are located <strong>close to the site</strong>, with
+                        up to 1,200 spaces available on Avenida de Ranillas and Avenida de Pablo Ruiz Picasso.
                     </p>
                 </div>
             </div>
@@ -224,7 +311,8 @@
                     </div>
                 </div>
                 <div class="col-md-9 col-md-10">
-                    <p class="m-0"> Just a 15-minute drive away is the <strong>Zaragoza Airport</strong>, offering daily international connections.
+                    <p class="m-0"> Just a 15-minute drive away is the <strong>Zaragoza Airport</strong>, offering daily
+                        international connections.</p>
                 </div>
             </div>
 
@@ -245,7 +333,16 @@
                     </div>
                 </div>
                 <div class="col-md-9 col-md-10">
-                    <p class="m-0"><strong>Delicias Station</strong> (with AVE, Cercanías and Bus Station stops) is only 5 minutes away by car and 15 minutes on foot.
+                    <p class="m-0"><strong>Delicias Station</strong> (with AVE, Cercanías and Bus Station stops) is only
+                        5 minutes away by car and 15 minutes on foot. <br>
+                        If you are travelling <strong>from the cities of Madrid and Barcelona</strong>, you can get to
+                        Zaragoza by high-speed train. The journey time from both points is 1h20min. <br>
+                        You can book your train journey on the websites of the following companies: <br>
+                        <a class="texto_gris" target="_blank" href="https://www.renfe.com/es/en">Renfe</a> |
+                        <a class="texto_gris" target="_blank" href="https://www.ouigo.com/es/en">Ouigo</a> |
+                        <a class="texto_gris" target="_blank" href="https://iryo.eu/en/home">Iryo</a>
+
+                    </p>
                 </div>
             </div>
 
@@ -308,7 +405,8 @@
                     </div>
                 </div>
                 <div class="col-md-9 col-md-10">
-                    <p class="m-0"><strong>The site is convenient to a number of bus lines</strong>: lines 23 and 34, and at Delicias Station lines Ci1 and Ci2.
+                    <p class="m-0"><strong>The site is convenient to a number of bus lines</strong>: lines 23 and 34,
+                        and at Delicias Station lines Ci1 and Ci2.
                 </div>
             </div>
 
@@ -365,7 +463,11 @@
                                         Zaragoza <br>
                                         50011 <br>
                                         Spain</p>
-                                    <p></p>
+                                    <p><a class="texto_azul" target="_blank"
+                                            href="https://maps.app.goo.gl/vSvS4zBgHXZmxvwa6">See the map</a></p>
+                                    <p><a class="texto_azul" target="_blank"
+                                            href="https://www.eurostarshotels.co.uk/eurostars-zaragoza.html">Book</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -401,7 +503,11 @@
                                         Zaragoza<br>
                                         50018 <br>
                                         Spain</p>
-                                    <p></p>
+                                    <p><a class="texto_azul" target="_blank"
+                                            href="https://maps.app.goo.gl/QBMzzUuAAh3sR48M7">See the map</a></p>
+                                    <p><a class="texto_azul" target="_blank"
+                                            href="https://www.eurostarshotels.co.uk/exe-zaragoza-wtc.html">Book</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -437,7 +543,11 @@
                                         Zaragoza<br>
                                         50018 <br>
                                         Spain</p>
-                                    <p></p>
+                                    <p><a class="texto_azul" target="_blank"
+                                            href="https://maps.app.goo.gl/3sa3t4u85iNCFptZA">See the map</a></p>
+                                    <p><a class="texto_azul" target="_blank"
+                                            href="https://www.palafoxhoteles.com/en/zaragoza-hotels/hotel-hiberus">Book</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -453,92 +563,152 @@
 
         <!-- paneles -->
 
-        <section class="text-18">
+        <section class="text-18" id="agenda">
             <div class="row">
-              <h2 class="mb-4 p-0">Days</h2>
-              <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-4 mb-5 py-3 px-md-4">
-                <div class="card text-center sombra" style="background-color:#ffffff;">
-                  <!--<a href="dia1.html"><img src="img/actividad (4).webp" class="card-img-top" alt="..."></a>-->
-        
-                  <div class="card-body">
-                    <div class="card-title"><h1>Day 1</h1><p>March 20th</p></div>
-                    <ul>
-                      <li>Opening</li>
-                      <li>International policy overview </li>
-                      <li>Regions policy overview</li>
-                      <li>National policies</li>
-                      <li>Local policies</li>
-                      <li><br></li>
-                    </ul>
-      
-                    <a href="dia1.html" type="button" class="btn btn-mobility">Access</a>
-                    <!--<button type="button" class="btn btn-mobility"  data-bs-toggle="modal" data-bs-target="#panelModal01">Acceder</button>-->
-                    <!-- Modal -->
-                    <div class="modal fade" id="panelModal01" tabindex="-1" aria-labelledby="panelModal01Label"
-                      aria-hidden="true">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="panelModal01Label">Actividad 1</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                          </div>
-                          <div class="modal-body">
-                            ...
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="button" class="btn btn-primary">Siguiente</button>
-                          </div>
+                <h2 class="mb-4 p-0">Agenda</h2>
+                <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-4 mb-5 py-3 px-md-4">
+                    <div class="card text-center sombra" style="background-color:#ffffff;">
+                        <!--<a href="dia1.html"><img src="img/actividad (4).webp" class="card-img-top" alt="..."></a>-->
+
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h1>Day 1</h1>
+                                <p>March 20th</p>
+                            </div>
+                            <ul>
+                                <li>Opening</li>
+                                <li>International policy overview </li>
+                                <li>Regions policy overview</li>
+                                <li>National policies</li>
+                                <li>Local policies</li>
+                                <li><br></li>
+                            </ul>
+
+                            <a href="dia1.html" type="button" class="btn btn-mobility">Access</a>
+                            <!--<button type="button" class="btn btn-mobility"  data-bs-toggle="modal" data-bs-target="#panelModal01">Acceder</button>-->
+                            <!-- Modal -->
+                            <div class="modal fade" id="panelModal01" tabindex="-1" aria-labelledby="panelModal01Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="panelModal01Label">Actividad 1</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Siguiente</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-4 mb-5 py-3 px-md-4">
-                <div class="card text-center sombra" style="background-color:#ffffff;">
-                  <!--<a href="dia2.html"><img src="img/actividad (1).webp" class="card-img-top" alt="..."></a>-->
-        
-                  <div class="card-body">
-                    <div class="card-title"><h1>Day 2</h1><p>March 21st</p></div>
-                    <ul>
-                      <li>Introduction 
-                        Safe system approach</li>
-                      <li>Safe users</li>
-                      <li>Safe vehicles</li>
-                      <li>Safe infrastructure </li>
-                      <li>Conclusions</li>
-                      <li>Closing</li>
-                    </ul>
-        
-                    <a href="dia2.html" type="button" class="btn btn-mobility">Access</a>
-                    <!-- Modal -->
-                    <div class="modal fade" id="panelModal02" tabindex="-1" aria-labelledby="panelModal02Label"
-                      aria-hidden="true">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="panelModal02Label">Actividad 2</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                          </div>
-                          <div class="modal-body">
-                            ...
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="button" class="btn btn-primary">Siguiente</button>
-                          </div>
+                <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-4 mb-5 py-3 px-md-4">
+                    <div class="card text-center sombra" style="background-color:#ffffff;">
+                        <!--<a href="dia2.html"><img src="img/actividad (1).webp" class="card-img-top" alt="..."></a>-->
+
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h1>Day 2</h1>
+                                <p>March 21st</p>
+                            </div>
+                            <ul>
+                                <li>Introduction
+                                    Safe system approach</li>
+                                <li>Safe users</li>
+                                <li>Safe vehicles</li>
+                                <li>Safe infrastructure </li>
+                                <li>Conclusions</li>
+                                <li>Closing</li>
+                            </ul>
+
+                            <a href="dia2.html" type="button" class="btn btn-mobility">Access</a>
+                            <!-- Modal -->
+                            <div class="modal fade" id="panelModal02" tabindex="-1" aria-labelledby="panelModal02Label"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="panelModal02Label">Actividad 2</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Siguiente</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </section>
+        </section>
 
         <section>
             <div class="row">
+
+                <div class="col-12 col-md-6 mb-4">
+                    <h2>Promote</h2>
+
+
+
+                    <div id="carouselExampleIndicators" class="d-sm-none d-block carousel carousel-dark slide"
+                        data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner px-5 py-2">
+                            <div class="carousel-item active">
+                                <a href="https://www.dgt.es/" target="_blank" rel="noopener noreferrer"><img
+                                        src="../img/logos/logo_dgt.webp" class="d-block" alt="..."></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://www.anesdor.com/" target="_blank" rel="noopener noreferrer"><img
+                                        src="../img/logos/logo_anesdor.webp" class="d-block" alt="..."></a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
+                    <div id="organiza" class="row d-sm-inline-flex d-none">
+                        <div class="col-6 p-2 text-center">
+                            <a href="https://www.dgt.es/" target="_blank" rel="noopener noreferrer"><img class="img"
+                                    src="../img/logos/logo_dgt.webp" alt=""></a>
+                        </div>
+                        <div class="col-6 p-2 text-center">
+                            <a href="https://www.anesdor.com/" target="_blank" rel="noopener noreferrer"><img
+                                    class="img" src="../img/logos/logo_anesdor.webp" alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+
                 <div class="col-12 col-md-6 mb-4">
                     <h2>Organize</h2>
 
@@ -589,54 +759,6 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 mb-4">
-                    <h2>Promote</h2>
-
-
-
-                    <div id="carouselExampleIndicators" class="d-sm-none d-block carousel carousel-dark slide"
-                        data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                        </div>
-                        <div class="carousel-inner px-5 py-2">
-                            <div class="carousel-item active">
-                                <a href="https://www.dgt.es/" target="_blank" rel="noopener noreferrer"><img
-                                        src="../img/logos/logo_dgt.webp" class="d-block" alt="..."></a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="https://www.anesdor.com/" target="_blank" rel="noopener noreferrer"><img
-                                        src="../img/logos/logo_anesdor.webp" class="d-block" alt="..."></a>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-
-
-                    <div id="organiza" class="row d-sm-inline-flex d-none">
-                        <div class="col-6 p-2 text-center">
-                            <a href="https://www.dgt.es/" target="_blank" rel="noopener noreferrer"><img class="img"
-                                    src="../img/logos/logo_dgt.webp" alt=""></a>
-                        </div>
-                        <div class="col-6 p-2 text-center">
-                            <a href="https://www.anesdor.com/" target="_blank" rel="noopener noreferrer"><img
-                                    class="img" src="../img/logos/logo_anesdor.webp" alt=""></a>
-                        </div>
-
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -694,28 +816,35 @@
                     <div class="col-12 p-3">
                         <ul class="list-unstyled list-group list-group-horizontal-md">
 
-                            <li><a class="text-uppercase flex-fill" title="Normas de Uso"
+                            <li><a class="text-uppercase flex-fill" title="Contact"
+                                    href="https://www.mobilitycity.es/forms/contact-mobility-city/" target="_blank"
+                                    rel="noopener noreferrer">Contact</a>
+                            </li>
+
+
+
+                            <li><a class="text-uppercase flex-fill" title="Rules of Use"
                                     href="https://www.mobilitycity.es/rules-of-use/" target="_blank"
                                     rel="noopener noreferrer">Rules of Use</a>
                             </li>
 
 
 
-                            <li><a class="text-uppercase flex-fill" title="Privacidad"
+                            <li><a class="text-uppercase flex-fill" title="Privacy Policy"
                                     href="https://www.mobilitycity.es/privacy-policy/" target="_blank"
                                     rel="noopener noreferrer">Privacy Policy</a>
                             </li>
 
 
 
-                            <li><a class="text-uppercase flex-fill" title="Aviso Legal"
+                            <li><a class="text-uppercase flex-fill" title="Legal Notice"
                                     href="https://www.mobilitycity.es/legal-notice/" target="_blank"
                                     rel="noopener noreferrer">Legal Notice</a>
                             </li>
 
 
 
-                            <li><a class="text-uppercase flex-fill" title="Política de cookies"
+                            <li><a class="text-uppercase flex-fill" title="Cookies Policy"
                                     href="https://www.mobilitycity.es/cookies-policy/" target="_blank"
                                     rel="noopener noreferrer">Cookies Policy</a>
                             </li>

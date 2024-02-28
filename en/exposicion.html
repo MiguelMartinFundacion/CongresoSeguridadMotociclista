@@ -2,12 +2,17 @@
 <html lang="es">
 
 <head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>International Motorcycle Road Safety Conference - Zaragoza - March 2024</title>
     <meta name="description"
         content="International Congress on Motorcycle Road Safety, will be held at the Zaha Hadid Bridge in Zaragoza, Spain, on March 20 and 21, 2024.">
     <meta name="author" content="Fundación Ibercaja">
+    <link rel="icon" type="image/x-icon" href="../img/iconos/favicon.ico">
 
     <meta property="og:title" content="International Motorcycle Road Safety Conference - Zaragoza - March 2024" />
     <meta property="og:type" content="website" />
@@ -17,10 +22,10 @@
         content="International Congress on Motorcycle Road Safety, will be held at the Zaha Hadid Bridge in Zaragoza, Spain, on March 20 and 21, 2024." />
     <meta property="og:locale" content="en_EN" />
 
-    <link rel="stylesheet" href="../css/style.css?v=0.6">
+    <link rel="stylesheet" href="../css/style.css?v=0.7">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="../js/base.js?v=0.6"></script>
+    <script src="../js/base.js?v=0.7"></script>
 
     <script type="application/ld+json">
         {
@@ -74,7 +79,7 @@
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                      aria-expanded="false"><img src="../img/iconos/dias.png" alt=""> Days </a>
+                      aria-expanded="false"><img src="../img/iconos/dias.png" alt=""> Agenda </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="dia1.html">Day 1</a></li>
                       <li>
@@ -109,16 +114,21 @@
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                       aria-expanded="false"><img src="../img/iconos/inscripcion.png" alt=""> Register </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="https://www.fundacionibercaja.es/actividades/congresos-y-jornadas/international-motorcycle-road-safety-20-21-de-marzo-zaragoza/">Complete (March 20 and 21)</a></li>
+                      <li><a class="dropdown-item" data-bs-toggle="modal" href="#modalRegister1">Complete (March 20 and 21)</a></li>
                       <li>
                         <hr class="dropdown-divider">
                       </li>
-                      <li><a class="dropdown-item" href="https://www.fundacionibercaja.es/actividades/congresos-y-jornadas/international-motorcycle-road-safety-20-de-marzo-zaragoza/">Day 1 only (March 20)</a></li>
+                      <li><a class="dropdown-item" data-bs-toggle="modal" href="#modalRegister2">Day 1 only (March 20)</a></li>
                       <li>
                         <hr class="dropdown-divider">
                       </li>
-                      <li><a class="dropdown-item" href="https://www.fundacionibercaja.es/actividades/congresos-y-jornadas/international-motorcycle-road-safety-21-de-marzo-zaragoza/">Day 2 only (March 21)</a></li>
+                      <li><a class="dropdown-item" data-bs-toggle="modal" href="#modalRegister3">Day 2 only (March 21)</a></li>
                     </ul>
+                    <hr class="style14">
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://www.mobilitycity.es/forms/contact-mobility-city/"><img src="../img/iconos/contacto.png" alt="">
+                      Contact</a>
                   </li>
                 </ul>
               </div>
@@ -151,14 +161,82 @@
       </nav>
       -->
 
+      <div class="modal fade" id="modalRegister1" aria-hidden="true" aria-labelledby="modalRegister1Label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content card sombra">
+            <div class="modal-body text-center">
+              <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+              <br><br>
+              <h4>Are you a resident in Spain?</h4> <br><br>
+              <a target="_blank"
+                href="https://www.fundacionibercaja.es/usuarios/inscripcion/actividad/a213529ee2bffcb2d577a189f140b3fcea8c859c13631b83f86fc797499466b36b3d87c85f5ed35e?bp_reg=1"
+                type="button" class="btn btn-mobility mb-4 fw-bold text-18">I am a resident</a>
+              <a target="_blank"
+                href="https://www.fundacionibercaja.es/usuarios/inscripcion/no_residentes/a213529ee2bffcb2d577a189f140b3fcea8c859c13631b83f86fc797499466b36b3d87c85f5ed35e"
+                type="button" class="btn btn-mobility mb-5 fw-bold text-18">I am not a resident</a>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="modal fade" id="modalRegister2" aria-hidden="true" aria-labelledby="modalRegister2Label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content card sombra">
+            <div class="modal-body text-center">
+              <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+              <br><br>
+              <h4>Are you a resident in Spain?</h4> <br><br>
+              <a target="_blank"
+                href="https://www.fundacionibercaja.es/usuarios/inscripcion/actividad/a213529ee2bffcb2d577a189f140b3fcea8c859c13631b83f86fc797499466b3d716f67cb1604884?bp_reg=1"
+                type="button" class="btn btn-mobility mb-4 fw-bold text-18">I am a resident</a>
+              <a target="_blank"
+                href="https://www.fundacionibercaja.es/usuarios/inscripcion/no_residentes/a213529ee2bffcb2d577a189f140b3fcea8c859c13631b83f86fc797499466b3d716f67cb1604884"
+                type="button" class="btn btn-mobility mb-5 fw-bold text-18">I am not a resident</a>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="modal fade" id="modalRegister3" aria-hidden="true" aria-labelledby="modalRegister3Label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content card sombra">
+            <div class="modal-body text-center">
+              <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+              <br><br>
+              <h4>Are you a resident in Spain?</h4> <br><br>
+              <a target="_blank"
+                href="https://www.fundacionibercaja.es/usuarios/inscripcion/actividad/a213529ee2bffcb2d577a189f140b3fcea8c859c13631b83f86fc797499466b34c06c1dcd84c4434?bp_reg=1"
+                type="button" class="btn btn-mobility mb-4 fw-bold text-18">I am a resident</a>
+              <a target="_blank"
+                href="https://www.fundacionibercaja.es/usuarios/inscripcion/no_residentes/a213529ee2bffcb2d577a189f140b3fcea8c859c13631b83f86fc797499466b34c06c1dcd84c4434"
+                type="button" class="btn btn-mobility mb-5 fw-bold text-18">I am not a resident</a>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+
   <div class="row justify-content-center text-center mt-5 gx-0">
     <div class="col-12">
       <div class="parallax img_actividad contenedor_img contenedor_img_100 shadow mt-4">
         <div class="texto_img">
           <p class="text-uppercase mb-1 text-14">ZARAGOZA | MOBILITY CITY</p>
-          <h1 class="h2 fw-bold">EXHIBITION</h1>
+          <h1 class="h2 fw-bold">MOTOTECH 2024 EXHIBITION</h1>
           <p class="text-18 m-0">Motorcycles safety and sustainability technologies</p>
-          <a href="https://www.fundacionibercaja.es/actividades/congresos-y-jornadas/international-motorcycle-road-safety-20-21-de-marzo-zaragoza/" target="_blank" rel="noopener noreferrer" type="button" class="btn btn-mobility2 mt-4 text-18">Register</a>
+          
+          <a class="btn btn-mobility2 mt-4 text-18" data-bs-toggle="dropdown" href="#" role="button"
+            aria-expanded="false">Register</a>
+          <ul class="dropdown-menu register_dropdown p-0">
+            <li><a class="dropdown-item" data-bs-toggle="modal" href="#modalRegister1">Complete (March 20 and 21)</a></li>
+            
+            <li><a class="dropdown-item" data-bs-toggle="modal" href="#modalRegister2">Day 1 only (March 20)</a></li>
+            
+            <li><a class="dropdown-item" data-bs-toggle="modal" href="#modalRegister3">Day 2 only (March 21)</a></li>
+          </ul>
+
+          <a href="#agenda" rel="noopener noreferrer" type="button" class="btn btn-mobility2 mt-4 text-18">Agenda</a>
         </div>
       </div>
     </div>
@@ -167,202 +245,211 @@
   <!--Cuerpo-->
   <div class="container container_body">
 
-    <!--<div class="grid">
-                <div class="g-col">
-                    <img alt="Logo" src="../img/demo.jpg" class="img-fluid">
+    <div class="expo_wrapper">
+      
+      <div class="expo_sticky">
+        <img class="img_expo" src="../img/exposicion_cartel_en.webp" alt="">
+      </div>
+      <!--<div class="grid">
+                  <div class="g-col">
+                      <img alt="Logo" src="../img/demo.jpg" class="img-fluid">
+                  </div>
+              </div>-->
+      <div class="expo_nonsticky">
+        <section class="texto_gris">
+          <p>
+            Interactive exhibition dedicated to <strong>innovative safety</strong> and <strong>mobility technologies</strong> and <strong>protective equipment</strong>.
+          </p>
+          <p>
+            <strong>Duration</strong>: From March 20th to April 29th
+          </p>
+          <p>
+            <strong>Location</strong>: Inside the Zaha Hadid Bridge
+            <br>During the Congress, it will be integrated into
+            the activity.
+            <br>Afterwards, it will be moved to a public transit
+            area on the Bridge.
+          </p>
+        </section>
+    
+        <section>
+          <img class="img_exposicion d-none" src="../img/img_exposicion_en.webp" alt="">
+          <img class="img_exposicion d-block" src="../img/img_exposicion_en_mobile.webp" alt="">
+            <!--<h2>Formato</h2><br>
+            <div class="row formato">
+              <div class="col-6 text-center p-5">
+                
+                <div class="col-4"><img src="../img/exposicion1.webp" alt=""></div>
+                <div class="col-8">
+                  <h4>SHOWROOM<br>
+                      ARAS</h4><br>
+                  <p class="text-16 text-end">
+                      <strong>
+                          10-12 motos de mercado
+                          actual
+                      </strong> que incluyen diferentes
+                      sistemas ARAS
+                  </p>
                 </div>
+              </div>
+              <div class="col-6 text-center p-5">
+                <h4>SHOWROOM<br>
+                    CONECTIVIDAD</h4><br>
+                <p class="text-16 text-start"><strong>2 motos prototipos</strong> cedidas por
+                    Connected Motorcycle
+                    Consortium</p>
+              </div>
+              <div class="col-6 text-center p-5">
+                <h4>SHOWROOM<br>
+                    EQUIPAMIENTO</h4><br>
+                <p class="text-16 text-end">
+                    <strong>Cascos.</strong> Comparativa tipos de
+                    cascos. Muestra de composición
+                    de cascos. <br><br>
+                    <strong>Equipamiento.</strong> Protecciones,
+                    guantes, botas, chaquetas, airbag
+                    mecánico / electrónico
+                </p>
+              </div>
+              <div class="col-6 text-center p-5">
+                <h4>SHOWROOM<br>
+                    SOSTENIBILIDAD</h4><br>
+                <p class="text-16 text-start">
+                    <strong>
+                        Consorcio de Baterías
+                        Intercambiables.
+                    </strong> <br><br>
+                    <strong>Prototipo MotoStudent.</strong> 2 protos petrol. 2
+                    protos Electric. Proto Moto3.e
+                    Moto Engineering Foundation</p>
+              </div>
             </div>-->
-    <section class="texto_gris">
-      <p>
-        Interactive exhibition dedicated to <strong>innovative safety</strong> and <strong>mobility technologies</strong> and <strong>protective equipment</strong>.
-      </p>
-      <p>
-        <strong>Duration</strong>: From March 20th to April 29th
-      </p>
-      <p>
-        <strong>Location</strong>: Inside the Zaha Hadid Bridge
-        <br>During the Congress, it will be integrated into
-        the activity.
-        <br>Afterwards, it will be moved to a public transit
-        area on the Bridge.
-      </p>
-    </section>
-
-    <section>
-      <img class="img_exposicion d-md-block d-none" src="../img/img_exposicion_en.webp" alt="">
-      <img class="img_exposicion d-block d-md-none" src="../img/img_exposicion_en_mobile.webp" alt="">
-        <!--<h2>Formato</h2><br>
-        <div class="row formato">
-          <div class="col-6 text-center p-5">
-            
-            <div class="col-4"><img src="../img/exposicion1.webp" alt=""></div>
-            <div class="col-8">
-              <h4>SHOWROOM<br>
-                  ARAS</h4><br>
-              <p class="text-16 text-end">
-                  <strong>
-                      10-12 motos de mercado
-                      actual
-                  </strong> que incluyen diferentes
-                  sistemas ARAS
-              </p>
-            </div>
-          </div>
-          <div class="col-6 text-center p-5">
-            <h4>SHOWROOM<br>
-                CONECTIVIDAD</h4><br>
-            <p class="text-16 text-start"><strong>2 motos prototipos</strong> cedidas por
-                Connected Motorcycle
-                Consortium</p>
-          </div>
-          <div class="col-6 text-center p-5">
-            <h4>SHOWROOM<br>
-                EQUIPAMIENTO</h4><br>
-            <p class="text-16 text-end">
-                <strong>Cascos.</strong> Comparativa tipos de
-                cascos. Muestra de composición
-                de cascos. <br><br>
-                <strong>Equipamiento.</strong> Protecciones,
-                guantes, botas, chaquetas, airbag
-                mecánico / electrónico
+          </section>
+    
+    
+    
+          <section>
+            <h2><div class="texto_azul">SHOWROOM</div> SAFETY</h2>
+            <p>
+              Visitors can discover <strong>the most advanced safety systems already present today</strong> on the market.
             </p>
-          </div>
-          <div class="col-6 text-center p-5">
-            <h4>SHOWROOM<br>
-                SOSTENIBILIDAD</h4><br>
-            <p class="text-16 text-start">
-                <strong>
-                    Consorcio de Baterías
-                    Intercambiables.
-                </strong> <br><br>
-                <strong>Prototipo MotoStudent.</strong> 2 protos petrol. 2
-                protos Electric. Proto Moto3.e
-                Moto Engineering Foundation</p>
-          </div>
-        </div>-->
-      </section>
-
-
-
-      <section>
-        <h2><div class="texto_azul">SHOWROOM</div> ARAS</h2>
-        <p>
-          Visitors can discover <strong>the most advanced safety systems already present today</strong> on the market.
-        </p>
-        <p>
-          The safety systems will be displayed with audiovisual content to explain how they work.
-        </p>
-        <br>
-        <h3>Exhibition of motorbikes and their respective systems:
-          Dynamic ARAS</h3>
-        <ul class="texto_gris mt-3">
-          <li>Traction Control (TCS)</li>
-          <li>Advanced Cornering ABS (c-ABS)</li>
-          <li>Stability Control (MSC)</li>
-          <li>Antiwheelie Control (WCS)</li>
-          <li>Adaptive Suspension</li>
-          <li>Driving Modes</li>
-        </ul>
-        <br>
-        <h3>Environmental sensing</h3>
-        <ul class="texto_gris mt-3">
-          <li>Adaptive Cruise Control with Collision Avoidance (ACC + FCW)</li>
-          <li>Blind Spot Detector (BSM)</li>
-        </ul>
-        <br>
-        <h3>Visibility</h3>
-        <ul class="texto_gris mt-3">
-          <li>Adaptive lighting (ADB / AFS)</li>
-          <li>Emergency braking signal</li>
-        </ul>
-      </section>
-      <hr class="style14">
-      <section>
-        <h2><div class="texto_azul">SHOWROOM</div> CONECTIVITY</h2>
-        <p>
-          <strong>Motorcycle industry works actively to improve safety of motorcycle riders.</strong>
-Connectivity Systems (V2X) between motorcycles and other vehicles, most likely cars,
-are key technologies which will increase rider safety in the coming decade.
-        </p>
-        <br>
-        <h3>Connected Motorcycle Consortium Project Exhibition</h3>
-        <ul class="texto_gris mt-3">
-          <li>Prototypes with the most advanced connectivity systems.</li>
-          <li>Audiovisual material explaining different use cases and reserach studies.</li>
-        </ul>
-        <br>
-        <h3>eCall</h3>
-        <ul class="texto_gris mt-3">
-          <li>Exhibition of a motorbike with an eCall system in place.</li>
-          <li>eCall systems information exhibition.</li>
-        </ul>
-      </section>
-      <hr class="style14">
-      <section>
-        <h2><div class="texto_azul">SHOWROOM</div> PERSONAL EQUIPMENT</h2>
-        <p>
-          Demonstration of <strong>technologies applied to motorcyclist equipment</strong> (helmets,
-          gloves, boots, jackets, trousers and airbag protection systems).
-        </p>
-        <br>
-        <h3>Simulation of various sets of complete equipment</h3>
-        <br>
-        <h3>Helmets</h3>
-        <ul class="texto_gris mt-3">
-          <li>Exhibition of different types of helmets</li>
-          <li>Samples of how a helmet is put together</li>
-        </ul>
-        <br>
-        <h3>Equipment</h3>
-        <ul class="texto_gris mt-3">
-          <li>Exhibition of different types of jackets / trousers / overalls</li>
-          <li>Exhibition of different types of gloves</li>
-          <li>Exhibition of different types of boots</li>
-          <li>Exhibition of different types of airbags</li>
-          <li>Exhibition of different types of protections and explanation of materials</li>
-          <li>Exhibition of other technologies applied to the equipment</li>
-        </ul>
-      </section>
-      <hr class="style14">
-      <section>
-        <h2><div class="texto_azul">SHOWROOM</div> SUSTAINABILITY</h2>
-        <p>
-          Visitors can get a first-hand look at various <strong>projects to improve sustainability</strong>.
-        </p>
-        <p>
-          From advanced electromobility systems such as standardised battery exchange, to
-electric and renewable fuel-powered racing motorbikes, as well as other related
-projects.
-        </p>
-        <br>
-        <h3>Electric motorbikes (exhibition of different applied technologies)</h3>
-        <ul class="texto_gris mt-3">
-          <li>Battery exchange systems</li>
-          <li>Charging systems</li>
-          <li>Urban and inter-urban electric motorbikes</li>
-        </ul>
-        <br>
-        <h3>Renewable fuels</h3>
-        <ul class="texto_gris mt-3">
-          <li>Presentation of the development of new carbon-neutral fuels and their
-            application</li>
-        </ul>
-        <br>
-        <h3>Evolution of racing as a test bed for sustainability</h3>
-        <ul class="texto_gris mt-3">
-          <li>Exhibition of electric racing motorbikes</li>
-          <li>Exhibition of motorbikes running on renewable fuels</li>
-          <li>Exhibition of how racing has been adapting to sustainability</li>
-        </ul>
-      </section>
-
+            <p>
+              The safety systems will be displayed with audiovisual content to explain how they work.
+            </p>
+            <br>
+            <h3>Exhibition of motorbikes and their respective systems:
+              Dynamic ARAS</h3>
+            <ul class="texto_gris mt-3">
+              <li>Traction Control (TCS)</li>
+              <li>Advanced Cornering ABS (c-ABS)</li>
+              <li>Stability Control (MSC)</li>
+              <li>Antiwheelie Control (WCS)</li>
+              <li>Adaptive Suspension</li>
+              <li>Driving Modes</li>
+            </ul>
+            <br>
+            <h3>Environmental sensing</h3>
+            <ul class="texto_gris mt-3">
+              <li>Adaptive Cruise Control with Collision Avoidance (ACC + FCW)</li>
+              <li>Blind Spot Detector (BSM)</li>
+            </ul>
+            <br>
+            <h3>Visibility</h3>
+            <ul class="texto_gris mt-3">
+              <li>Adaptive lighting (ADB / AFS)</li>
+              <li>Emergency braking signal</li>
+            </ul>
+          </section>
+          <hr class="style14">
+          <section>
+            <h2><div class="texto_azul">SHOWROOM</div> CONECTIVITY</h2>
+            <p>
+              <strong>Motorcycle industry works actively to improve safety of motorcycle riders.</strong>
+    Connectivity Systems (V2X) between motorcycles and other vehicles, most likely cars,
+    are key technologies which will increase rider safety in the coming decade.
+            </p>
+            <br>
+            <h3>Connected Motorcycle Consortium Project Exhibition</h3>
+            <ul class="texto_gris mt-3">
+              <li>Prototypes with the most advanced connectivity systems.</li>
+              <li>Audiovisual material explaining different use cases and reserach studies.</li>
+            </ul>
+            <br>
+            <h3>eCall</h3>
+            <ul class="texto_gris mt-3">
+              <li>Exhibition of a motorbike with an eCall system in place.</li>
+              <li>eCall systems information exhibition.</li>
+            </ul>
+          </section>
+          <hr class="style14">
+          <section>
+            <h2><div class="texto_azul">SHOWROOM</div> PERSONAL EQUIPMENT</h2>
+            <p>
+              Demonstration of <strong>technologies applied to motorcyclist equipment</strong> (helmets,
+              gloves, boots, jackets, trousers and airbag protection systems).
+            </p>
+            <br>
+            <h3>Simulation of various sets of complete equipment</h3>
+            <br>
+            <h3>Helmets</h3>
+            <ul class="texto_gris mt-3">
+              <li>Exhibition of different types of helmets</li>
+              <li>Samples of how a helmet is put together</li>
+            </ul>
+            <br>
+            <h3>Equipment</h3>
+            <ul class="texto_gris mt-3">
+              <li>Exhibition of different types of jackets / trousers / overalls</li>
+              <li>Exhibition of different types of gloves</li>
+              <li>Exhibition of different types of boots</li>
+              <li>Exhibition of different types of airbags</li>
+              <li>Exhibition of different types of protections and explanation of materials</li>
+              <li>Exhibition of other technologies applied to the equipment</li>
+            </ul>
+          </section>
+          <hr class="style14">
+          <section>
+            <h2><div class="texto_azul">SHOWROOM</div> SUSTAINABILITY</h2>
+            <p>
+              Visitors can get a first-hand look at various <strong>projects to improve sustainability</strong>.
+            </p>
+            <p>
+              From advanced electromobility systems such as standardised battery exchange, to
+    electric and renewable fuel-powered racing motorbikes, as well as other related
+    projects.
+            </p>
+            <br>
+            <h3>Electric motorbikes (exhibition of different applied technologies)</h3>
+            <ul class="texto_gris mt-3">
+              <li>Battery exchange systems</li>
+              <li>Charging systems</li>
+              <li>Urban and inter-urban electric motorbikes</li>
+            </ul>
+            <br>
+            <h3>Renewable fuels</h3>
+            <ul class="texto_gris mt-3">
+              <li>Presentation of the development of new carbon-neutral fuels and their
+                application</li>
+            </ul>
+            <br>
+            <h3>Evolution of racing as a test bed for sustainability</h3>
+            <ul class="texto_gris mt-3">
+              <li>Exhibition of electric racing motorbikes</li>
+              <li>Exhibition of motorbikes running on renewable fuels</li>
+              <li>Exhibition of how racing has been adapting to sustainability</li>
+            </ul>
+          </section>
+    
+      </div>
+      
+    </div>
 
 
     <!-- paneles -->
 
-    <section class="text-18">
+    <section class="text-18" id="agenda">
       <div class="row">
-        <h2 class="mb-4 p-0">Days</h2>
+        <h2 class="mb-4 p-0">Agenda</h2>
         <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-4 mb-5 py-3 px-md-4">
           <div class="card text-center sombra" style="background-color:#ffffff;">
             <!--<a href="dia1.html"><img src="img/actividad (4).webp" class="card-img-top" alt="..."></a>-->
@@ -446,6 +533,56 @@ projects.
 
     <section>
       <div class="row">
+        
+        <div class="col-12 col-md-6 mb-4">
+          <h2>Promote</h2>
+        
+  
+  
+          <div id="carouselExampleIndicators" class="d-sm-none d-block carousel carousel-dark slide"
+            data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner px-5 py-2">
+              <div class="carousel-item active">
+                <a href="https://www.dgt.es/" target="_blank" rel="noopener noreferrer"><img src="../img/logos/logo_dgt.webp"
+                    class="d-block" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.anesdor.com/" target="_blank" rel="noopener noreferrer"><img
+                    src="../img/logos/logo_anesdor.webp" class="d-block" alt="..."></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    
+    
+          <div id="organiza" class="row d-sm-inline-flex d-none">
+            <div class="col-6 p-2 text-center">
+              <a href="https://www.dgt.es/" target="_blank" rel="noopener noreferrer"><img class="img"
+                  src="../img/logos/logo_dgt.webp" alt=""></a>
+            </div>
+            <div class="col-6 p-2 text-center">
+              <a href="https://www.anesdor.com/" target="_blank" rel="noopener noreferrer"><img class="img"
+                  src="../img/logos/logo_anesdor.webp" alt=""></a>
+            </div>
+            
+          </div>
+        </div>
+
         <div class="col-12 col-md-6 mb-4">
           <h2>Organize</h2>
         
@@ -495,54 +632,6 @@ projects.
           </div>
         </div>
 
-        <div class="col-12 col-md-6 mb-4">
-          <h2>Promote</h2>
-        
-  
-  
-          <div id="carouselExampleIndicators" class="d-sm-none d-block carousel carousel-dark slide"
-            data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner px-5 py-2">
-              <div class="carousel-item active">
-                <a href="https://www.dgt.es/" target="_blank" rel="noopener noreferrer"><img src="../img/logos/logo_dgt.webp"
-                    class="d-block" alt="..."></a>
-              </div>
-              <div class="carousel-item">
-                <a href="https://www.anesdor.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="../img/logos/logo_anesdor.webp" class="d-block" alt="..."></a>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    
-    
-          <div id="organiza" class="row d-sm-inline-flex d-none">
-            <div class="col-6 p-2 text-center">
-              <a href="https://www.dgt.es/" target="_blank" rel="noopener noreferrer"><img class="img"
-                  src="../img/logos/logo_dgt.webp" alt=""></a>
-            </div>
-            <div class="col-6 p-2 text-center">
-              <a href="https://www.anesdor.com/" target="_blank" rel="noopener noreferrer"><img class="img"
-                  src="../img/logos/logo_anesdor.webp" alt=""></a>
-            </div>
-            
-          </div>
-        </div>
       </div>
     </section>
 
@@ -600,28 +689,33 @@ projects.
               <div class="col-12 p-3">
                   <ul class="list-unstyled list-group list-group-horizontal-md">
 
-                      <li><a class="text-uppercase flex-fill" title="Normas de Uso"
+                    <li><a class="text-uppercase flex-fill" title="Contact" href="https://www.mobilitycity.es/forms/contact-mobility-city/" target="_blank" rel="noopener noreferrer">Contact</a>
+                    </li>
+      
+      
+                    
+                      <li><a class="text-uppercase flex-fill" title="Rules of Use"
                               href="https://www.mobilitycity.es/rules-of-use/" target="_blank"
                               rel="noopener noreferrer">Rules of Use</a>
                       </li>
 
 
 
-                      <li><a class="text-uppercase flex-fill" title="Privacidad"
+                      <li><a class="text-uppercase flex-fill" title="Privacy Policy"
                               href="https://www.mobilitycity.es/privacy-policy/" target="_blank"
                               rel="noopener noreferrer">Privacy Policy</a>
                       </li>
 
 
 
-                      <li><a class="text-uppercase flex-fill" title="Aviso Legal"
+                      <li><a class="text-uppercase flex-fill" title="Legal Notice"
                               href="https://www.mobilitycity.es/legal-notice/" target="_blank"
                               rel="noopener noreferrer">Legal Notice</a>
                       </li>
 
 
 
-                      <li><a class="text-uppercase flex-fill" title="Política de cookies"
+                      <li><a class="text-uppercase flex-fill" title="Cookies Policy"
                               href="https://www.mobilitycity.es/cookies-policy/" target="_blank"
                               rel="noopener noreferrer">Cookies Policy</a>
                       </li>

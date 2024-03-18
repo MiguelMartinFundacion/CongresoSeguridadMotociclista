@@ -1,22 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;600;700&display=poppinsswap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300;400;600;700&display=poppinsswap');
 
-@property --main-color {
-    syntax: "<color>";
-    inherits: false;
-    initial-value: #10c9b9;
+:root{
+    --main-color: #10c9b9;
+    --back-color: #10c9b9;
+    --trans-color: #10c9b9;
 }
 
-@property --back-color {
-    syntax: "<color>";
-    inherits: false;
-    initial-value: #10c9b9;
-}
-
-@property --trans-color {
-    syntax: "<color>";
-    inherits: false;
-    initial-value: #10c9b9;
-}
 
 body * {
     font-family: 'Poppins', sans-serif;
@@ -292,7 +281,7 @@ hr.style14 {
 }
 
 .texto_img {
-    width: 100%;
+    width: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -327,6 +316,12 @@ hr.style14 {
     }
 }
 
+@media screen and (max-width: 680px) {
+    .texto_img h1 {
+        font-size: 28px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     #logo_principal {
         margin-top: 10px;
@@ -352,8 +347,13 @@ hr.style14 {
         margin-top: 80px;
     }
 
-    .texto_img_index h1 {
+    .texto_img h1 {
         font-size: 24px;
+    }
+
+    .texto_img .btn {
+        font-size: 16px !important;
+        padding: 4px 8px;
     }
 
     .formato .text-16{
@@ -368,8 +368,7 @@ hr.style14 {
 
 @media screen and (max-width: 390px) {
     #logo_principal {
-        max-height: 30px;
-        margin-top: 15px;
+        max-height: 40px;
         padding: 0px;
     }
 
@@ -387,8 +386,13 @@ hr.style14 {
         height: 250px;
     }
 
-    .texto_img_index h1 {
-        font-size: 18px;
+    .texto_img h1 {
+        font-size: 20px;
+    }
+
+    .texto_img .btn {
+        font-size: 15px !important;
+        padding: 4px 4px;
     }
 
     .formato h4 {
@@ -453,9 +457,9 @@ hr.style14 {
 }
 
 .carousel {
-    height: 130px;
+    height: 160px;
     overflow: hidden;
-    z-index: -1;
+    z-index: 0;
 }
 
 .carousel-item {
@@ -465,13 +469,25 @@ hr.style14 {
 
 .carousel-item a img{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    max-height: 80%;
+    content: contain;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .carousel-inner {
     height: 100%;
+    content: contain;
+}
+
+.carousel-control-next, .carousel-control-prev, .carousel-indicators {
+    z-index: 10 !important;
 }
 
 #organiza img {
@@ -598,8 +614,12 @@ hr.style14 {
     position: relative;
 }
 
+.expo_sticky {
+    margin-top: 52px;
+}
 
-@media only screen and (min-width: 1200px) {
+
+@media only screen and (min-width: 992px) {
 
     .expo_nonsticky {
         padding-right: 100px;
@@ -614,6 +634,10 @@ hr.style14 {
         width: 40%;
         background-color: #001117;
         min-height: 100vh;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        margin-top: 0px;
     }
 }
 
@@ -699,6 +723,202 @@ svg {
 }
 
 
+
+/* Ponentes */
+
+.ponente {
+    position: relative;
+    overflow: hidden;
+    padding: 5px !important;
+}
+
+.ponente img {
+    width: 100%;
+    overflow: hidden;
+    filter: grayscale(100%);
+}
+
+.ponente a {
+    width: 100%;
+    overflow: hidden;
+}
+
+.ponente .textos_ponente {
+    position: absolute;
+    bottom: 0;
+    margin: 0px 20px;
+    line-height: 1;
+    font-size: 14px;
+    color: #fff;
+    transition: 1s;
+    letter-spacing: 1px;
+    width: 90%;
+}
+
+.textos_ponente .nombre_ponente {
+    font-weight: 600;
+}
+
+.textos_ponente .texto_ponente {
+    font-weight: lighter;
+}
+
+.textos_ponente .texto_pulsar {
+    display: none;
+    color: #0DA699;
+}
+
+.ponente strong {
+    color: white;
+}
+
+.gradiente {
+    /*background: linear-gradient(180deg, #10c9ba42 0%, #116477 100%);*/
+    background: linear-gradient(180deg, rgba(1, 1, 1, 0) 39.88%, #08313b 100%);
+    bottom: 5px;
+    left: 5px;
+    pointer-events: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.ponente:hover .gradiente {
+    background-color: #008aa691;
+    transition: 1s;
+}
+
+.ponente:hover .textos_ponente {
+    bottom: 30px;
+    transition: 1s;
+}
+
+.ponente:hover .texto_pulsar {
+    position: absolute;
+    display: block;
+    transition: 1s;
+}
+
+@media only screen and (max-width: 900px) {
+    .ponente .textos_ponente {
+        font-size: 10px;
+        margin: 0px 10px;
+        letter-spacing: normal;
+    }
+
+    .ponente .textos_ponente p {
+        margin-bottom: 10px;
+    }
+
+    #ponentes .modal-body img {
+        width: 180px;
+    }
+}
+
+#ponentes .modal-body {
+    line-height: 25px;
+    letter-spacing: 0px;
+}
+
+#ponentes .modal-body p {
+    text-align: left;
+    font-weight: 600;
+    color: #3d4245;
+    font-size: 15px;
+}
+
+#ponentes .modal-body h3 {
+    font-weight: 600 !important;
+}
+
+#ponentes .modal-body img {
+    border-radius: 50%;
+}
+
+@media (min-width: 576px) {
+    #ponentes .modal-dialog {
+        max-width: 1140px !important;
+        width: 97%;
+    }
+
+    #ponentes .modal-body {
+        padding: 40px;
+    }
+
+    #ponentes .modal-body p {
+        margin: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    #ponentes .modal-dialog {
+        margin-top: 40px !important;
+    }
+}
+
+
+/* streaming */
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: calc(100% - 10px);
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .directo .ponente {
+    padding: 10px !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .directo .gradiente {
+    top: 10px;
+    left: 10px; 
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .vid3 {
+    margin-top: 20px !important;
+  }
+
+  .vid2 {
+    margin-top: 20px !important;
+  }
+
+  @media screen and (min-width: 768px) {
+    .vid2 {
+        position: absolute;
+        top: 0px;
+        width: 90% !important;
+        margin-top: 0px !important;
+      }
+
+      .vid3 {
+        position: absolute;
+        bottom: 0px;
+        width: 90% !important;
+        margin-top: 0px !important;
+      }
+  }
 
 
 
